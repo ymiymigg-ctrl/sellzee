@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    color: #05000B;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Header */
+
+.conte {
+    max-width: 1134px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding-top: 25px;
+}
+
+.header .conte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav a {
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.header__nav a.activ {
+    opacity: 1;
+    font-weight: 600;
+}
+
+.header__nav a:hover {
+    opacity: 1;
+}
+
+.header__list {
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FF5A05;
+    border-radius: 4px;
+    width: 170px;
+    height: 60px;
+    transition: opacity 0.3s;
+}
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* Welcom */
+
+.welcom {
+    margin-top: -85px;
+    height: 750px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #2E43F0 0%, #6677FF 100%); /* Чистично понимаю */
+}
+
+.photo_1 {
+    position: absolute;
+    right: 0;
+    margin: 120px 40px 71px 0px;
+    padding: 0px 15px;
+    width: 800px;
+}
+
+.welcom__part {
+    max-width: 465px;
+    padding-block: 155px 160px;
+}
+
+.welcom hr {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 365px;
+    color: #FFFFFF;
+}
+
+.welcom__subtitel {
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.welcom__title {
+    width: 465px;
+    height: 202px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.welcom__title .activ {
+    font-weight: 700;
+    font-size: 61px;
+}
+
+.welcom__desc {
+    margin-top: 0px;
+    margin-bottom: 43px;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 418px;
+    opacity: 0.7;
+}
+
+.welcom__btn {
+    display: flex;
+    gap: 30px;
+    width: 370px;
+}
+
+.welcom__btn .no_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 170px;
+    height: 60px;
+    transition: opacity 0.2s;
+}
+.no_btn:hover {
+    opacity: 0.7;
+}
+
+/* Company */
+
+.company {
+    height: 447px;
+}
+
+.company__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 138px;
+}
+
+.company__list li {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 17px 48px;
+    width: 150px;
+}
+
+.company__list-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 41px;
+}
+
+.company__list-2 li {
+    border: 2px solid black;
+    padding: 17px 48px;
+    width: 200px;
+}
+
+/* Info */
+
+.info {
+    height: 630px;
+}
+
+.info__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.photo_2 {
+    width: 400px;
+    position: absolute;
+}
+
+.info__chast {
+    width: 546px;
+    margin-left: auto; /* Сам не понимаю что это такое */
+    
+}
+
+.info__chast h4 {
+    width: 256px;
+    color: #FF5A05;
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.info__chast h2 {
+    margin-top: 12px;
+    margin-bottom: 25px;
+    width: 546px;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 1.2;
+}
+
+.info__chast .activ {
+    width: 530px;
+    line-height: 1.6;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.info__chicbox {
+    margin-top: 29px;
+    margin-bottom: 39px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+    height: 50px;
+}
+
+.info__chicbox .activ-2 {
+    margin-right: 35px;
+    width: 120px;
+}
+
+.info__chicbox .activ-3 {
+    width: 210px;
+}
+
+.info__chicbox img {
+    margin-right: 15px;
+}
