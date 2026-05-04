@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 
 body {
     margin: 0;
@@ -199,7 +198,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Info */
 
 .info {
-    height: 630px;
+    height: 700px;
+    background-color: #FFFFFF;
 }
 
 .info__block {
@@ -208,15 +208,148 @@ h1, h2, h3, h4, h5, h6 {
     align-items: flex-start;
 }
 
+/* block images-info */
+.info__imges {
+    width: 500px;
+    height: 380px;
+}
+
 .photo_2 {
     width: 400px;
-    position: absolute;
+    position: relative;
+    left: -50px;
 }
+
+.info__chast-2 {
+    position: absolute;
+    left: 220px;
+    top: 1450px;
+    border-radius: 10px;
+    width: 455px;
+    background-color: #fcfbfb;
+}
+
+.info__chast-2 img{
+    width: 55px;
+    height: 55px;
+}
+
+.info__chast-2 h5{
+    margin-top: 15px;
+    padding-left: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #404040;
+    width: 213px;
+}
+
+.info__photo-name {
+    display: flex;
+    margin-block: 14px 20px;
+    padding: 0px 28px;
+    width: 400px;
+    color: #404040;
+}
+
+.name-1, .name-2,.name-3,.name-4,.name-5 {
+    margin: 0px 12px;
+    transition: 0.3s;
+}
+.name-5 img:hover {
+    opacity: 0.7;
+}
+
+.info__photo-name p {
+    margin-block: 1px 0px;
+    text-align: center;
+}
+
+.info__btn {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0px 38px;
+    gap: 10px;
+}
+
+.info__btn .activ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border: 2px solid #1F37FF;
+    border-radius: 8px;
+    font-weight: 400;
+    color: #C7C7C7;
+    transition: 0.3s;
+}
+
+.info__btn .activ:hover {
+    color: #8d8d8d;
+}
+
+.info__btn .activ-2 {
+    width: 183px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.info__btn .activ-2 img {
+    padding-right: 15px;
+    width: 35px;
+}
+
+/* info-min-time */
+.info__time {
+    position: absolute;
+    left: 400px;
+    top: 1370px;
+    width: 260px;
+    background-color: #fcfbfb;
+    border-radius: 8px;
+}
+
+.info__min-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.info__min-time .time-0 {
+    position: absolute;
+    left: -5px;
+    width: 70px;
+    border-radius: 100px;
+    background-color: #fcfbfb;
+}
+
+.info__min-time img {
+    margin-left: 24px;
+    width: 60px;
+}
+
+.info__min-time .activ {
+    margin-left: 18px;
+    margin-right: 38px;
+    margin-block: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #3C3C43;
+    opacity: 0.7;
+}
+
+.info__min-time .activ-2 {
+    margin-right: 18px;
+    margin-block: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7459D9;
+}
+
+
+/* info-text */
 
 .info__chast {
     width: 546px;
     margin-left: auto; /* Сам не понимаю что это такое */
-    
 }
 
 .info__chast h4 {
@@ -265,4 +398,57 @@ h1, h2, h3, h4, h5, h6 {
 
 .info__chicbox img {
     margin-right: 15px;
+}
+
+/* Achivcky */
+
+
+.achivcky {
+    height: 550px;
+    background-color: #FFFFFF;
+}
+
+.achivcky__block {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.varr-p p {
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.varr-h6 h6 {
+    color: #1F37FF;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+}
+
+.achivcky__ch1 {
+    position: absolute;
+    left: 180px;
+    bottom: -1425px;
+}
+
+.achivcky__ch2 {
+    position: absolute;
+    left: 480px;
+    bottom: -1425px;
+}
+
+.achivcky__ch3 {
+    position: absolute;
+    left: 790px;
+    bottom: -1425px;
+}
+
+.achivcky__ch4 {
+    position: absolute;
+    left: 1160px;
+    bottom: -1425px;
 }
